@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .header-image{
     background-image: url('../images/header.png');
     max-width: 1366px;
@@ -29,8 +36,12 @@
 .container{
     max-width: 1088px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: 100%;
     position: absolute;
     top: 30px;
@@ -38,6 +49,8 @@
 }
 
 .nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .nav li {
@@ -80,6 +93,8 @@ a,
 }
 .p-wraper{
     font-size: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: absolute;
     top: 219px;
@@ -191,6 +206,8 @@ a,
     outline: none;
     border: none;
     cursor: pointer;
+    -webkit-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
     transition: 0.5s linear;
     font-family: 'Poppins';
     font-weight: normal;
@@ -199,15 +216,26 @@ a,
     background-color:RoyalBlue;
 }
 .form-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     
 }
 .right-form{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .left-form{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     max-width: 720px;
     width: 100%;
@@ -220,8 +248,12 @@ a,
     max-width: 1088px;
     width: 100%;
     margin:  50px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .section4 h5{
@@ -260,17 +292,32 @@ a,
     height: 58px;
     background-color: #5863F8;
     border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .block-1{
     max-width: 362px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 
@@ -309,8 +356,12 @@ a,
     max-width: 1366px;
     width: 100%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .footer-wraper{
@@ -322,8 +373,12 @@ a,
 }
 
 .upper-footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     max-width: 1088px;
     width: 100%;
     padding-top: 90px;
@@ -331,8 +386,12 @@ a,
 }
 
 .lower-footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     max-width: 1088px;
     width: 100%;
     margin:54px auto;
