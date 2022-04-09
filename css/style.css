@@ -394,7 +394,7 @@ a,
             justify-content: space-between;
     max-width: 1088px;
     width: 100%;
-    margin:54px auto;
+    margin: 54px auto 0 auto;
     padding-bottom: 40px;
     font-family: 'Poppins';
     font-weight: 500;
